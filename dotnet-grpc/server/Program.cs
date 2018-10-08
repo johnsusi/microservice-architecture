@@ -42,7 +42,6 @@ namespace server
               })));
 
             services.AddSingleton(Hello.BindService(new HelloService()));
-            services.AddSingleton(Hello.BindService(new Hello2Service()));
 
           })
           .UseConsoleLifetime()
